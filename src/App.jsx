@@ -1,10 +1,10 @@
 import styles from './style';
 import { GetStarted, Hero, Navbar, Footer, Card, Table, MobileCard } from "./components";
 function App() {
-  
+
   return (
     <div className="w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary fixed w-full mt-1 z-10`}>
+      <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary fixed w-full md:mt-1 mt-0 z-10`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
@@ -14,12 +14,7 @@ function App() {
           <Hero />
         </nav>
       </div>
-      <div className='hidden sm:flex flex-wrap bg-greyWhite bg-gradient-to-t from-primary'>
-        <div className={`${styles.paddingX} ${styles.flexCenter} mx-auto`}>
-          <Card />
-        </div>
-      </div>
-      <div className='sm:hidden bg-greyWhite bg-gradient-to-t from-primary'>
+      <div className='bg-greyWhite bg-gradient-to-t from-primary'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <MobileCard />
         </div>

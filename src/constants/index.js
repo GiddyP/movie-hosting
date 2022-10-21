@@ -47,6 +47,28 @@ export const feedback = [
     name: "Kenn Gallagher",
     title: "Expert service, trusted for 30 years",
   },
+  {
+    id: "feedback-1",
+    content: "Competitive entry prices and even lower rates for active traders.",
+    title: "Ultra-competitive FX spreads",
+
+  },
+  {
+    id: "feedback-2",
+    content: "Tier-1 liquidity gives higher fill-rates, fewer premature stop-outs and significant price improvements.",
+    title: "Best-in-class execution",
+  },
+  {
+    id: "feedback-3",
+    content: "Benefit from integrated Trade Signals, news feeds and innovative risk-management features.",
+    title: "Award-winning platform",
+  },
+  {
+    id: "feedback-4",
+    content: "With 850,000+ satisfied customers, Saxo Bank offers world-class service around the clock.",
+    name: "Kenn Gallagher",
+    title: "Expert service, trusted for 30 years",
+  },
 ];
 
 export const footerLinks = [
