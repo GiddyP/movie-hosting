@@ -52,25 +52,9 @@ function Footer() {
                     ))}
                 </div>
             </div>
+
             <div className="hidden w-full md:flex justify-center items-center md:flex-row
         flex-col py-3 border-y-[1px] border-y-[#3F3E45]">
-                {/* <p className="font-poppins font-normal text-center text-[18px] leading-[27px]
-            text-white">
-                    2021 HooBank. All Rights Reserved.
-                </p>
-                <div className="flex flex-row md:mt-0 mt-6">
-                    {
-                        socialMedia.map((social, index) => (
-                            <img
-                                key={social.id}
-                                src={social.icon}
-                                alt={social.name}
-                                className={`w-[21px] h-[21px] object-contain
-                   cursor-pointer ${index !== socialMedia.length
-                                        - 1 ? 'mr-6' : 'mr-0'}`} />
-                        ))
-                    }
-                </div> */}
                 <div className="text-dimWhite">
                     <ul className="flex">
                         <li className="px-2 cursor-pointer">Compliance</li>
@@ -83,9 +67,6 @@ function Footer() {
                         <li className="px-2 cursor-pointer">Cookie policy</li>
                         <li className="px-2 cursor-pointer">General business terms</li>
                     </ul>
-
-
-
                 </div>
             </div>
         </section>

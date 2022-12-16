@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* Image Logo */}
       <img
         src={iforex4}
-        alt="hoobank"
+        alt="iforex"
         className="md:w-[180px] md:h-[44px] w-[150px] h-[40px] object-cover cursor-pointer"
       />
       {/* large screen menu */}
@@ -20,54 +20,54 @@ const Navbar = () => {
       font-poppins font-semibold cursor-pointer text-[15px] ss:text-sm
       md:flex hidden justify-start mr-5 
             mt-5 flex-1  text-dimWhite">
-        <li className="inline-block relative"><a className="block px-[10px] py-[.5rem]" href="#">Product</a>
+        <li className="inline-block relative"><a className="block px-[10px] py-[.5rem]">Product</a>
           <ul className="submenu">
 
             <li className={'block px-[1px] py-[.rem]'}>
-              <a className="block px-[8px] py-[.6rem]" href='#'>Investment Products</a>
+              <a className="block px-[8px] py-[.6rem]">Investment Products</a>
               <ul className="submenu2">
                 {investProductsLinks.map((product2, index) => (
                   <li key={product2.id}
                     className={'block px-[1px] py-[.rem]'}
                   >
-                    <a className="block px-[8px] py-[.6rem]" href={`${product2.id}`}>{product2.name}</a>
+                    <a className="block px-[8px] py-[.6rem]">{product2.name}</a>
                   </li>
                 ))}
               </ul>
             </li>
             <li className={'block px-[1px] py-[.rem]'}>
-              <a className="block px-[8px] py-[.6rem]" href='#'>Leveraged Products</a>
+              <a className="block px-[8px] py-[.6rem]">Leveraged Products</a>
               <ul className="submenu2">
                 {leverageProductsLinks.map((product2, index) => (
                   <li key={product2.id}
                     className={'block px-[1px] py-[.rem]'}
                   >
-                    <a className="block px-[8px] py-[.6rem]" href={`${product2.id}`}>{product2.name}</a>
+                    <a className="block px-[8px] py-[.6rem]">{product2.name}</a>
                   </li>
                 ))}
               </ul>
             </li>
             <li className={'block px-[1px] py-[.rem]'}>
-              <a className="block px-[8px] py-[.6rem]" href='#'>Pricing</a>
+              <a className="block px-[8px] py-[.6rem]">Pricing</a>
               <ul className="submenu2">
                 {pricingLinks.map((product2, index) => (
                   <li key={product2.id}
                     className={'block px-[1px] py-[.rem]'}
                   >
-                    <a className="block px-[8px] py-[.6rem]" href={`${product2.id}`}>{product2.name}</a>
+                    <a className="block px-[8px] py-[.6rem]">{product2.name}</a>
                   </li>
                 ))}
               </ul>
             </li>
           </ul>
         </li>
-        <li className="inline-block relative"><a className="block px-[12px] py-[.5rem]" href="#">Platform</a>
+        <li className="inline-block relative"><a className="block px-[12px] py-[.5rem]">Platform</a>
           <ul className="submenu">
             {platformLinks.map((product1, index) => (
               <li key={product1.id}
                 className={'block py-[.rem]'}
               >
-                <a className="block px-[6px] py-[.6rem]" href={`${product1.id}`}>{product1.name}</a>
+                <a className="block px-[6px] py-[.6rem]">{product1.name}</a>
               </li>
             ))}
           </ul>
@@ -76,25 +76,25 @@ const Navbar = () => {
         <li className="inline-block relative"><a className="block px-[10px] py-[.5rem]" href="#">Account</a>
           <ul className="submenu">
             <li className={'block px-[1px] py-[.rem]'}>
-              <a className="block px-[8px] py-[.6rem]" href='#'>Account Types</a>
+              <a className="block px-[8px] py-[.6rem]">Account Types</a>
               <ul className="submenu2">
                 {accountTypeLinks.map((product, index) => (
                   <li key={product.id}
                     className={'block px-[1px] py-[.rem]'}
                   >
-                    <a className="block px-[4px] py-[.6rem]" href={`${product.id}`}>{product.name}</a>
+                    <a className="block px-[4px] py-[.6rem]">{product.name}</a>
                   </li>
                 ))}
               </ul>
             </li>
             <li className={'block px-[1px] py-[.rem]'}>
-              <a className="block px-[8px] py-[.6rem]" href='#'>Loyalty</a>
+              <a className="block px-[8px] py-[.6rem]">Loyalty</a>
               <ul className="submenu2">
                 {loyaltyLinks.map((product, index) => (
                   <li key={product.id}
                     className={'block px-[1px] py-[.rem]'}
                   >
-                    <a className="block px-[8px] py-[.6rem]" href={`${product.id}`}>{product.name}</a>
+                    <a className="block px-[8px] py-[.6rem]">{product.name}</a>
                   </li>
                 ))}
               </ul>
@@ -102,7 +102,7 @@ const Navbar = () => {
           </ul>
         </li>
 
-        <li className="inline-block relative"><a className="block px-[12px] py-[.5rem]" href="#">About</a>
+        <li className="inline-block relative"><a className="block px-[12px] py-[.5rem]">About</a>
         </li>
       </ul>
 
