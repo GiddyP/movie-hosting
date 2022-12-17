@@ -1,5 +1,5 @@
 // import Hero from './components/Hero/Hero';
-import MovieSet from './components/MovieSet/MovieSet';
+import MovieSet from './MovieSet/MovieSet';
 import Navbar from './components/Navbar';
 import Search from './components/Search';
 import styles from './style';
