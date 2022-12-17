@@ -67,7 +67,7 @@ function App() {
         <Search />
       </div>
       <div className={`w-full pl-[28px] md:pl-[67px]`}>
-        <>
+        
           <div className='md:h-[349px] h-[240px]'>
             <span className='text-[18px] md:text-[24px] font-400 leading-[31px]'>Marvel</span>
             <div className='flex flex-row gap-[13px] mt-[18px] overflow-auto'>
@@ -92,7 +92,7 @@ function App() {
               }
             </div>
           </div>
-        </>
+        
       </div>
 
     </div>
