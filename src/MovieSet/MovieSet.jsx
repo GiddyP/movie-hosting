@@ -16,7 +16,7 @@ const MovieSet = () => {
 
             setMarvelMovie(json.Search);
         } catch (error) {
-            // console.log("error", error);
+            console.log("error", error);
         }
         //   setItems(json)
     };
