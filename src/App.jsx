@@ -1,5 +1,7 @@
+import Hero from './components/Hero/Hero';
+import MovieSet from './components/MovieSet/MovieSet';
+import Search from './components/Search';
 import styles from './style';
-import { Hero, Navbar, Search, MovieSet } from "./constants";
 function App() {
 
   return (
@@ -9,15 +11,14 @@ function App() {
       </div>
 
       <div className={`w-full ${styles.flexCenter} lg:h-[100vh] h-[320px]`}>
-        {/* <Hero /> */}
-        njhkjjlkl;ompojj
+        <Hero />
       </div>
-      {/* <div className={`w-full ${styles.flexCenter}`}>
+      <div className={`w-full ${styles.flexCenter}`}>
         <Search />
       </div>
       <div className={`w-full pl-[28px] md:pl-[67px]`}>
         <MovieSet />
-      </div> */}
+      </div>
       
     </div>
 

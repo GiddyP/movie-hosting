@@ -1,5 +1,4 @@
 
-
 const Search = () => {
     return (
         <div className="w-[834px] flex justify-center items-center mt-[56px] md:mt-[370px] lg:mt-[40px] mb-[33px] md:mb-[-10px] lg:mb-[0px]">
