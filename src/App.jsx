@@ -4,7 +4,8 @@ function App() {
 
   return (
     <div className="w-full overflow-hidden">
-      <div className={`fixed w-full ${styles.flexCenter}`}>
+      Hello world
+      {/* <div className={`fixed w-full ${styles.flexCenter}`}>
         <Navbar />
       </div>
 
@@ -16,7 +17,8 @@ function App() {
       </div>
       <div className={`w-full pl-[28px] md:pl-[67px]`}>
         <MovieSet />
-      </div>
+      </div> */}
+
     </div>
 
   );
