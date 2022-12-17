@@ -10,7 +10,7 @@ function App() {
   const [disneyMovie, setDisneyMovie] = useState([]);
 
   const fetchData = async () => {
-    const url = "http://www.omdbapi.com/?apikey=ab036132&s=marvel";
+    const url = "https://www.omdbapi.com/?apikey=ab036132&s=marvel";
     try {
       const response = await fetch(url);
       const json = await response.json();
@@ -25,12 +25,7 @@ function App() {
   };
 
   const fetchData2 = async () => {
-    const url = await fetch("https://www.omdbapi.com/?apikey=ab036132&s=disney",
-      {
-        method: "GET",
-      }
-    )
-      ;
+    const url = "https://www.omdbapi.com/?apikey=ab036132&s=disney";
     try {
       const response = await fetch(url);
       const json = await response.json();
