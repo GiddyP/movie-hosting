@@ -25,7 +25,12 @@ function App() {
   };
 
   const fetchData2 = async () => {
-    const url = "http://www.omdbapi.com/?apikey=ab036132&s=disney";
+    const url = await fetch("http://www.omdbapi.com/?apikey=ab036132&s=disney",
+    {
+      method: "GET",
+    }
+    )
+    ;
     try {
       const response = await fetch(url);
       const json = await response.json();
