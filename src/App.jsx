@@ -34,18 +34,16 @@ function App() {
 
       setDisneyMovie(json.Search);
     } catch (error) {
-      // console.log("error", error);
+      console.log("error", error);
     }
     //   setItems(json)
   };
 
   useEffect(() => {
     // clean up 
-    return () => {
-      // This detaches the realtime(fire-store) listener 
-      fetchData();
-      fetchData2();
-    };
+    fetchData();
+    fetchData2();
+  
   }, []);
 
   return (
