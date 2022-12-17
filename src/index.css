@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 
 @tailwind base;
@@ -8,6 +8,7 @@
 * {
   scroll-behavior: smooth;
   margin: 0;
+  font-family: 'DM Sans', sans-serif;
 }
 
 body {
@@ -28,7 +29,6 @@ body {
 
 @media screen and (max-width: 425px) {
   .hero__img{
-      width: 320px;
       height: 257px;
       left: 0px;
       top: 65px;;
