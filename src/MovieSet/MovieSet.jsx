@@ -37,11 +37,11 @@ const MovieSet = () => {
     };
 
     useEffect(() => {
+        fetchData();
+        fetchData2();
         // clean up 
         return () => {
             // This detaches the realtime(fire-store) listener 
-            fetchData();
-            fetchData2();
         };
     }, []);
 
