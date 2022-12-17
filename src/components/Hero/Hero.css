@@ -1,0 +1,20 @@
+.hero__img{
+    position: absolute;
+    top: 138px;
+    width: 100vw;
+    height: 550px;
+    object-fit: cover;
+    background-image: url(../src/assets/krists.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 425px) {
+    .hero__img{
+        width: 320px;
+        height: 257px;
+        left: 0px;
+        top: 65px;;
+    }
+}

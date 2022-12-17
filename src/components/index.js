@@ -1,19 +1,13 @@
 import Navbar from "./Navbar";
-import Button from "./Button";
-import Hero from "./Hero";
-import Card from "./Card";
-import GetStarted from "./GetStarted";
-import Footer from "./Footer";
-import Table from "./Table";
-import MobileCard from "./MobileCard";
+import Hero from "./Hero/Hero";
+import Search from "./Search";
+import Movie from "./MovieSet/Movie";
+import MovieSet from "./MovieSet/MovieSet";
 
 export {
     Navbar,
-    Button,
     Hero,
-    Card,
-    GetStarted,
-    Footer,
-    Table,
-    MobileCard
+    Search,
+    Movie,
+    MovieSet,
 };

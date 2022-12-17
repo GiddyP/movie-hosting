@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#2e1f3d",
+        primary: "#292929",
         secondary: "#de5477",
         greyWhite: "#f2F3f5",
         dimWhite: "rgba(255, 255, 255, 0.7)",
@@ -16,11 +16,12 @@ module.exports = {
       },
     },
     screens: {
-      xs: "480px",
-      ss: "620px",
-      sm: "768px",
-      md: "1060px",
-      lg: "1200px",
+      xs: "320px",
+      sm: "375px",
+      ss: "425px",
+      md: "768px",
+      ds: "1024px",
+      lg: "1440px",
       xl: "1700px",
     },
   },
