@@ -9,14 +9,15 @@ function App() {
       </div>
 
       <div className={`w-full ${styles.flexCenter} lg:h-[100vh] h-[320px]`}>
-        <Hero />
+        {/* <Hero /> */}
+        njhkjjlkl;ompojj
       </div>
-      <div className={`w-full ${styles.flexCenter}`}>
+      {/* <div className={`w-full ${styles.flexCenter}`}>
         <Search />
       </div>
       <div className={`w-full pl-[28px] md:pl-[67px]`}>
         <MovieSet />
-      </div>
+      </div> */}
       
     </div>
 
